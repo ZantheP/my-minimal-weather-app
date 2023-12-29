@@ -34,3 +34,8 @@ header {
   border-radius: 25px;
   color: #6a5e70;
 }
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
