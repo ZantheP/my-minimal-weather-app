@@ -16,6 +16,15 @@ header {
   padding: 0 0 30px 0;
 }
 
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #313131;
+}
+
 .search-form-input {
   background-color: #ffffff;
   border: 1px solid #e1e5e8;
@@ -37,5 +46,32 @@ header {
 
 .weather-app-data {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.temperature {
+  padding: 30px;
+}
+
+.temperature-unit {
+  font-size: 54px;
+  font-weight: 500;
+  color: #6a5e70;
+}
+
+.weather-details {
+  padding: 5px;
+  font-size: 14 px;
+  font-weight: 400;
+  color: #6a5e70;
+}
+
+footer {
+  border-top: 1px solid #e1e5e8;
+  padding: 15px 0 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: #6a5e70;
 }
